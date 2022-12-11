@@ -4,6 +4,7 @@
 // import { Counter } from "./components/Counter";
 // import { CounterWithHook } from './components/CounterWithHook';
 // import Login from './components/Login';
+import { Forms } from "./components/Forms";
 import { Usuarios } from "./components/Usuarios";
 
 const App = () => {
@@ -17,7 +18,8 @@ const App = () => {
       {/* <Counter/> */}
       {/* <CounterWithHook/> */}
       {/* <Login/> */}
-      <Usuarios/>
+      {/* <Usuarios/> */}
+      <Forms/>
     </div>
   )
 };
